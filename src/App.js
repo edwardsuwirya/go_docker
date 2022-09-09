@@ -16,7 +16,7 @@ const App = () => {
         <div className="App">
             <header className="App-header">
                 {products.map((p) => (
-                    <div key={p.Id}>{p.ProductName} {p.CategoryName}</div>
+                    <div key={p.Id}>{p.ProductName} with {p.CategoryName}</div>
                 ))}
             </header>
         </div>
